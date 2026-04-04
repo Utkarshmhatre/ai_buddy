@@ -1,0 +1,66 @@
+# General
+*.class
+*.log
+*.pyc
+*.swp
+*.swo
+.DS_Store
+.history
+
+# IDE and editor files
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+
+# Flutter and Dart tool state
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+.pub-cache/
+
+# Build outputs
+build/
+coverage/
+
+# Obfuscation and symbol files
+app.*.map.json
+app.*.symbols
+
+# Environment and local secrets
+.env
+.env.*
+*.keystore
+*.jks
+*.p12
+android/key.properties
+
+# Android
+android/.gradle/
+android/local.properties
+android/**/captures/
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# iOS and macOS generated artifacts
+ios/Flutter/ephemeral/
+ios/Pods/
+ios/.symlinks/
+ios/Runner.xcworkspace/xcuserdata/
+ios/Runner.xcodeproj/project.xcworkspace/xcuserdata/
+ios/Runner.xcodeproj/xcuserdata/
+
+macos/Flutter/ephemeral/
+macos/Pods/
+macos/Runner.xcworkspace/xcuserdata/
+macos/Runner.xcodeproj/xcuserdata/
+
+# Linux and Windows generated artifacts
+linux/flutter/ephemeral/
+windows/flutter/ephemeral/
