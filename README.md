@@ -1,10 +1,6 @@
 # 🧠 AI Buddy - Privacy-First Mental Wellness Companion
 
 <p align="center">
-  <img src="assets/logo.jpeg" alt="AI Buddy Logo" width="150" height="150" style="border-radius: 30px;">
-</p>
-
-<p align="center">
   <strong>Your private, AI-powered companion for daily mental wellness</strong><br>
   <em>Built with Flutter • Powered by Google Gemini AI • Privacy-First Architecture</em>
 </p>
@@ -60,6 +56,9 @@ Meet **Aura**, an animated AI companion that responds with emotion-appropriate e
   <img src="assets/gifs/encouraging/medium.gif" alt="Encouraging" width="100">
   <img src="assets/gifs/calm/medium.gif" alt="Calm" width="100">
   <img src="assets/gifs/celebratory/medium.gif" alt="Celebratory" width="100">
+    <img src="assets/gifs/thoughtful/medium.gif" alt="Celebratory" width="100">
+    <img src="assets/gifs/supportive/high.gif" alt="Celebratory" width="100">
+
 </p>
 
 - **6 Emotion Types**: Empathetic, Encouraging, Calm, Celebratory, Thoughtful, Supportive
@@ -351,71 +350,6 @@ lib/
 - [ ] Voice input integration
 - [ ] Export mood/journal data as PDF
 
-### 🔮 Future Plans (v2.0+)
-
-- [ ] **Advanced AI Features**
-  - [ ] Streaming responses for natural conversation flow
-  - [ ] Context-aware function calling (trigger exercises, create journal entries)
-  - [ ] Predictive mood analysis
-  - [ ] Personalized daily insights and recommendations
-  
-- [ ] **Enhanced Wellness Tools**
-  - [ ] Guided meditation library
-  - [ ] Grounding exercises (5-4-3-2-1 technique)
-  - [ ] Progressive muscle relaxation
-  - [ ] Sleep tracking and sleep hygiene tips
-  - [ ] Activity scheduling (behavioral activation)
-  
-- [ ] **Social & Community**
-  - [ ] Anonymous peer support groups (with moderation)
-  - [ ] Share progress with accountability partners
-  - [ ] Community challenges and group activities
-  
-- [ ] **Professional Integration**
-  - [ ] Export summaries for therapists
-  - [ ] Professional dashboard for mental health providers
-  - [ ] Telehealth integration options
-  
-- [ ] **Platform Expansion**
-  - [ ] Wear OS / watchOS companion apps
-  - [ ] Web app with full feature parity
-  - [ ] Browser extension for quick check-ins
-  
-- [ ] **Internationalization**
-  - [ ] Multi-language support (Spanish, French, Hindi, Japanese, etc.)
-  - [ ] Culturally-adapted crisis resources
-  - [ ] Localized mental health content
-
-### 📊 Development Phases
-
-| Phase | Focus | Status |
-|-------|-------|--------|
-| Phase 1 | Core infrastructure, theming, navigation | ✅ Complete |
-| Phase 2 | AI chat integration, basic mood tracking | ✅ Complete |
-| Phase 3 | Journaling, exercises, enhanced mood features | ✅ Complete |
-| Phase 4 | AI enhancements, personalization | ✅ Complete |
-| Phase 5 | Safety hardening, accessibility, beta testing | ✅ Complete |
-| Phase 6 | Advanced features, data visualization | 🔄 In Progress |
-| Phase 7 | Community features, professional tools | 📋 Planned |
-
----
-
-## 👥 Team & Development
-
-AI Buddy is developed and maintained by our dedicated team. This is a **proprietary project** currently in active development.
-
-### Core Team
-
-- **Project Lead**: [Your Name]
-- **Developers**: [Team Member Names]
-- **UI/UX Design**: [Designer Names]
-- **Mental Health Consulting**: [Professional Names]
-
-### Development Status
-
-🔒 **Private Development**: This project is currently being developed by our core team. We are not accepting external contributions at this time.
-
-### For Team Members
 
 #### Development Guidelines
 
@@ -471,30 +405,6 @@ chore: update dependencies
 
 Use our internal issue tracking system for bug reports and feature requests. Follow these templates for consistency:
 
-### Bug Report Template
-
-```markdown
-**Describe the bug**
-A clear description of what the bug is.
-
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '...'
-3. See error
-
-**Expected behavior**
-What you expected to happen.
-
-**Screenshots**
-If applicable, add screenshots.
-
-**Environment:**
- - Device: [e.g. iPhone 12, Pixel 7]
- - OS: [e.g. iOS 16, Android 13]
- - App Version: [e.g. 1.1.0]
- - Build: [e.g. debug/release]
-```
 
 ### Feature Request Template
 
@@ -526,7 +436,7 @@ Once the app is publicly available, you can:
 
 ## 📄 License & Usage Rights
 
-**Copyright © 2024-2025 [Your Name/Team Name]. All Rights Reserved.**
+**Copyright © 2024-2025 [Utkarsh Mhatre]. All Rights Reserved.**
 
 This is proprietary software. The source code is provided for **reference and educational purposes only**.
 
@@ -561,8 +471,7 @@ If you discuss or reference this project in any public medium (blog posts, artic
 ### 🤝 Licensing Inquiries
 
 For commercial licensing, partnerships, or usage permissions, please contact:
-- **Email**: [your.email@example.com]
-- **Website**: [your-website.com]
+- **Email**: utkarshmhatre434@gmail.com
 
 ### ⚠️ Liability Disclaimer
 
@@ -583,63 +492,6 @@ If you're interested in:
 - **Academic use**: Contact us for special permissions
 
 ---
-
-## 🙏 Acknowledgments
-
-### Our Team
-
-- **Development Team**: Building the future of mental wellness technology
-- **Design Team**: Crafting empathetic and accessible user experiences
-- **Mental Health Consultants**: Ensuring evidence-based and safe therapeutic approaches
-- **Quality Assurance**: Testing rigorously to ensure reliability and safety
-
-### Technologies & Libraries
-
-- [Flutter](https://flutter.dev/) - Cross-platform UI framework
-- [Google Gemini AI](https://ai.google.dev/) - Conversational AI capabilities
-- [Isar Database](https://isar.dev/) - Fast, encrypted local storage
-- All the amazing open-source packages that make this project possible
-
-### Special Thanks
-
-- Mental health professionals who reviewed our safety features and therapeutic approach
-- Beta testers who provided invaluable feedback during development
-- The Flutter community for exceptional framework and support
-- Google for making Gemini AI accessible to developers
-- Our families and friends for supporting this important mission
-
-### Research & Resources
-
-This project incorporates evidence-based practices from:
-- Cognitive Behavioral Therapy (CBT) literature
-- Dialectical Behavior Therapy (DBT) techniques
-- Mindfulness-Based Stress Reduction (MBSR) principles
-- Crisis intervention best practices
-
----
-
-## 📞 Support & Contact
-
-### For Team Members
-
-- **Internal Documentation**: [Team Wiki/Confluence]
-- **Team Chat**: [Slack/Discord Channel]
-- **Project Management**: [Jira/Asana/Trello]
-- **Code Repository**: [GitHub Private Repo]
-
-### Business Inquiries
-
-- **Partnership Opportunities**: [business@example.com]
-- **Licensing Inquiries**: [licensing@example.com]
-- **Press & Media**: [press@example.com]
-- **General Contact**: [contact@example.com]
-
-### For Future Public Users
-
-Once AI Buddy is publicly released:
-- **User Support**: [support@example.com]
-- **Technical Issues**: [help@example.com]
-- **Website**: [www.aibuddy.app] (coming soon)
 
 ### In Crisis?
 

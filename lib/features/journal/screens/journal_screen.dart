@@ -160,15 +160,6 @@ class _JournalScreenState extends State<JournalScreen> {
           ),
         ],
       ),
-      floatingActionButton: FloatingActionButton.extended(
-        onPressed: () => _showEntryTypeSheet(context),
-        icon: const Icon(Icons.edit_rounded, size: 20),
-        label: const Text(
-          'New Entry',
-          style: TextStyle(fontWeight: FontWeight.w600),
-        ),
-        extendedPadding: const EdgeInsets.symmetric(horizontal: 20),
-      ),
     );
   }
 

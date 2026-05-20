@@ -79,13 +79,16 @@ class VisualView extends StatelessWidget {
       return _emptyChartMessage(context);
     }
 
-    switch (state.chartType) {
+    switch(state.chartType) {
       case AnalyticsChartType.line:
         return _buildLineChart(context);
       case AnalyticsChartType.bar:
         return _buildBarChart(context);
       case AnalyticsChartType.distribution:
         return _buildDistributionChart(context);
+      case AnalyticsChartType.heatmap:
+        // TODO: Handle this case.
+        throw UnimplementedError();
     }
   }
 
